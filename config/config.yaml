@@ -82,20 +82,49 @@ rss:
 
   freshness_filter:
     enabled: true
-    max_age_days: 1
+    max_age_days: 3
 
   feeds:
     - id: "openai-news"
-      name: "OpenAI 官方动态"
+      name: "OpenAI 官方"
       url: "https://openai.com/news/rss.xml"
+      max_items: 2
 
     - id: "google-deepmind"
-      name: "Google DeepMind 官方动态"
+      name: "DeepMind 官方"
       url: "https://deepmind.google/blog/rss.xml"
+      max_items: 2
+
+    - id: "google-research"
+      name: "Google Research"
+      url: "https://research.google/blog/rss/"
+      max_items: 2
 
     - id: "huggingface-blog"
       name: "Hugging Face 技术博客"
       url: "https://huggingface.co/blog/feed.xml"
+      max_items: 2
+
+    - id: "mit-ai"
+      name: "MIT 人工智能研究"
+      url: "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      max_items: 2
+
+    - id: "techcrunch-ai"
+      name: "TechCrunch AI 报道"
+      url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+      max_items: 2
+
+    - id: "hacker-news-ai"
+      name: "Hacker News 社区热帖"
+      url: "https://hnrss.org/newest?q=AI&points=50"
+      max_items: 2
+
+    - id: "reddit-localllama"
+      name: "LocalLLaMA 社区讨论"
+      url: "https://www.reddit.com/r/LocalLLaMA/new/.rss"
+      max_items: 2
+
 
 
 
