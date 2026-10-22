@@ -1,12 +1,13 @@
+# Version: 1.1.0
+
 [GLOBAL_FILTER]
+/sponsored|self.promotion|who.*hiring|founder summit/
 
 [WORD_GROUPS]
 
 [海外AI前沿]
-/\bOpenAI\b|\bChatGPT\b|\bGPT\b|\bAnthropic\b|\bClaude\b/
-/\bDeepMind\b|\bGemini\b|\bLlama\b|\bMistral\b|\bHugging Face\b/
-/\bartificial intelligence\b|\bgenerative AI\b|\bLLMs?\b/
-/\blarge language models?\b|\bfoundation models?\b/
-/\bAI agents?\b|\bagentic\b|\bmultimodal\b|\breasoning models?\b/
-/\btext-to-video\b|\btext-to-image\b|\bhumanoid\b|\brobotics\b/
-@8
+/\bAI\b|\bartificial intelligence\b|\bmachine learning\b|\bdeep learning\b/
+/\bOpenAI\b|\bChatGPT\b|\bAnthropic\b|\bClaude\b|\bGemini\b|\bDeepMind\b|\bLlama\b|\bMistral\b|\bNVIDIA\b/
+/\bLLMs?\b|\bSLMs?\b|\bmodels?\b|\bagents?\b|\bagentic\b|\bmultimodal\b|\binference\b|\breasoning\b/
+/\bneural\b|\btransformers?\b|\bdiffusion\b|\bbenchmarks?\b|\brobotics\b|\bhumanoid\b/
+@10
